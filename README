@@ -1,3 +1,18 @@
-./back/node_modules
-./front/node_modules
-./back/.env
+-- Création et lancement de la base données
+   
+   1- création de la base de donnée 
+
+     name : test-auchan
+     logiciel : pgadmin4
+       
+-- lancement du front
+   2- cd ./front 
+        npm install
+        npm run dev
+    
+   3- cd ./back
+        npm install
+        npm start
+
+NB: unitile de créer la table task elle sera créée automatiquement lorseque la base donnée est créee.
+ 
